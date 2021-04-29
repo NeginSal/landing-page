@@ -28,8 +28,27 @@ body{
 .icon col text-center{
     color: white;
 }
-.fa-facebook-f,.fa-twitter,.fa-linkedin-in,.fa-instagram{
+.fa-facebook-f,.fa-twitter,.fa-linkedin-in,.fa-instagram,.fa-phone,.fa-envelope,.fa-map-marker{
     color: white;
     font-size:xx-large;
 }
+.contactus{
+    height: 500px; ;
+    width: fit-content;
+}
+.icon{
+    font-size: 20px;
+}
+.form-control{
+    background: #00001a;
+    border: none;
+    border-radius: 50px;
+}
+.form{
+    background:#000033;
+    width: 500px;
+
+
+}
+
 
