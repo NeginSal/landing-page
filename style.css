@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'BKoodak';
     font-style: normal;
-    font-weight: bold;
     src:  url('fonts/BKoodak.eot') format('eot'),
           url('fonts/BKoodak.woff') format('woff'),
           url('fonts/BKoodak.ttf') format('ttf'),
@@ -25,5 +24,12 @@ body{
 }
 .card-text{
     text-align: center;
+}
+.icon col text-center{
+    color: white;
+}
+.fa-facebook-f,.fa-twitter,.fa-linkedin-in,.fa-instagram{
+    color: white;
+    font-size:xx-large;
 }
 
