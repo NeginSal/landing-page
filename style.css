@@ -59,6 +59,14 @@ body{
 }
 /*End Frequently Asked Questions*/
 
+/*Colleagues*/
+.img-partner{
+    border-radius: 50%;
+    width:100px;
+}
+/* End Colleagues*/
+
+
 .card-text{
     text-align: center;
 }
