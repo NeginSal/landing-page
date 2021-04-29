@@ -14,20 +14,22 @@ body{
     line-height: 1.6;
     background: #00001a;
 }
-.img{
-    width: 400px;
-    height: 250px;
-}
+
+/*banner*/
 .btn{
     border-radius: 50px;
     margin: auto;
-}
-.card-text{
     text-align: center;
+    width: 150px;
 }
-.icon col text-center{
-    color: white;
+.img-banner{
+    max-width: 500px;
+    max-height: 300px;
 }
+.fa-long-arrow-alt-left{
+    font-size: medium;
+}
+/*End banner*/
 /*Contact us*/
 .fa-facebook-f,.fa-twitter,.fa-linkedin-in,.fa-instagram,.fa-phone,.fa-envelope,.fa-map-marker{
     color: white;
@@ -49,10 +51,19 @@ body{
     background:#000033;
     width: 500px;
 }
+/*End Contact us*/
 /*Frequently Asked Questions*/
 .list-group-item{
     background:#000033;
     width: 600px;
+}
+/*End Frequently Asked Questions*/
+
+.card-text{
+    text-align: center;
+}
+.icon col text-center{
+    color: white;
 }
 
 
