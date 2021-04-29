@@ -28,6 +28,7 @@ body{
 .icon col text-center{
     color: white;
 }
+/*Contact us*/
 .fa-facebook-f,.fa-twitter,.fa-linkedin-in,.fa-instagram,.fa-phone,.fa-envelope,.fa-map-marker{
     color: white;
     font-size:xx-large;
@@ -47,8 +48,11 @@ body{
 .form{
     background:#000033;
     width: 500px;
-
-
+}
+/*Frequently Asked Questions*/
+.list-group-item{
+    background:#000033;
+    width: 600px;
 }
 
 
