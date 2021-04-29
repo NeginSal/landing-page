@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'BKoodak';
+    font-style: normal;
+    font-weight: bold;
+    src:  url('fonts/BKoodak.eot') format('eot'),
+          url('fonts/BKoodak.woff') format('woff'),
+          url('fonts/BKoodak.ttf') format('ttf'),
+          url('fonts/BKoodak.svg') format('svg'),
+          url('fonts/BKoodak.otf') format('otf');
+}
+body{
+    font-family:'BKoodak' ;
+    direction: rtl;
+    text-align: right !important;
+    line-height: 1.6;
+    background: #00001a;
+}
+.img{
+    width: 400px;
+    height: 250px;
+}
+.btn{
+    border-radius: 50px;
+    margin: auto;
+}
+.card-text{
+    text-align: center;
+}
+
