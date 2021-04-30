@@ -14,6 +14,20 @@ body{
     line-height: 1.6;
     background: #00001a;
 }
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #ff0066;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot-about{
+    height: 15px;
+    width: 15px;
+    background-color: #00ccff;
+    border-radius: 50%;
+    display: inline-block;
+  }
 /*banner*/
 .btn{
     border-radius: 50px;
@@ -93,14 +107,50 @@ body{
 .nav-link:hover{
     color: white;
 }
-
 .navbar{
     background: #00001a;
 }
-
-
-
 /* End Navbar*/
+
+/*animation line*/
+@keyframes line_animation {
+    from {
+        width: 0%;
+    }
+    to {
+        width:100%;
+    }
+    }
+    .line {
+    border-bottom: solid 5px #019fb6;
+    border-top-width: 0px;
+    animation-name: line_animation;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+
+@keyframes line2_animation {
+    from {
+        width: 0%;
+    }
+    to {
+        width:100%;
+    }
+    }
+    .line2 {
+    border-bottom: solid 5px #ff0066;
+    border-top-width: 0px;
+    animation-name: line2_animation;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+}
+/* End animation line*/
+
+
+
+
+
+
 
 
 
