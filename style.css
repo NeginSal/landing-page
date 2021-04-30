@@ -81,6 +81,26 @@ body{
 }
 /*End Service*/
 
+/*Navbar*/
+.img-logo{
+    width: 100px;
+    height: fit-content;
+}
+.nav-link{
+    color: white;
+    font-size: x-large;
+}
+.nav-link:hover{
+    color: white;
+}
+
+.navbar{
+    background: #00001a;
+}
+
+
+
+/* End Navbar*/
 
 
 
