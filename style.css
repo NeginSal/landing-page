@@ -14,7 +14,6 @@ body{
     line-height: 1.6;
     background: #00001a;
 }
-
 /*banner*/
 .btn{
     border-radius: 50px;
@@ -30,6 +29,7 @@ body{
     font-size: medium;
 }
 /*End banner*/
+
 /*Contact us*/
 .fa-facebook-f,.fa-twitter,.fa-linkedin-in,.fa-instagram,.fa-phone,.fa-envelope,.fa-map-marker{
     color: white;
@@ -52,6 +52,7 @@ body{
     width: 500px;
 }
 /*End Contact us*/
+
 /*Frequently Asked Questions*/
 .list-group-item{
     background:#000033;
@@ -66,12 +67,20 @@ body{
 }
 /* End Colleagues*/
 
+/*Service*/
+.card{
+    background: #00001a;
+}
+.card-body{
+   color: white;
+   text-align:center;
+}
+.card-img-top{
+    max-width: fit-content;
+    max-height: fit-content;
+}
+/*End Service*/
 
-.card-text{
-    text-align: center;
-}
-.icon col text-center{
-    color: white;
-}
+
 
 
