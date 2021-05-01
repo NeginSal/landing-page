@@ -49,8 +49,6 @@ body{
     max-width: 500px;
     max-height: 300px;
     color: white;
-    font-family: 'Raleway';
-    font-size: 2.5rem;
 }
 .gradient-border {
     --borderWidth: 3px;
@@ -154,6 +152,14 @@ body{
 .img-Colleague{
     border-radius: 50%;
     width:100px;
+    transition: 3s ease;
+}
+.img-Colleague:hover{
+    -webkit-transform: rotateZ(-60deg);
+    -ms-transform: rotateZ(-60deg);
+    transform: rotateZ(-60deg);
+    transition: 2s ease;
+    border: 7px solid #019fb6;
 }
 /* End Colleagues*/
 
