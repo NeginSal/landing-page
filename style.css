@@ -152,6 +152,7 @@ svg {
 .card{
     background: #00001a;
     border: 3px solid #000033;
+    border-radius: 10px;
     cursor: pointer;
  }
  .card-body{
@@ -185,6 +186,7 @@ svg {
  .card:hover::before,
  .card:hover::after {
    border-color: #eb196e;
+   border-radius: 10px;
    -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
    transition: border-color 0s, width 0.25s, height 0.25s;
    width: 100%;
@@ -259,7 +261,7 @@ svg {
 }
 .contactus{
     width: 460px;
-    height: 500px; 
+    height: 500px;
 }
 .form-control{
     background: #00001a;
@@ -269,6 +271,7 @@ svg {
 .form{
     background:#000033;
     width: 500px;
+    border-radius: 50px;
 }
 #box-3 {
     max-width: 460px;
@@ -310,7 +313,12 @@ svg {
 .list-group-item{
     background:#000033;
     width: 600px;
+    border-radius: 10px;
 }
+.list-group-item:nth-child(1),.list-group-item:nth-child(4){
+    border-radius: 10px;
+}
+
 /*End Frequently Asked Questions*/
 
 /*Footer*/
