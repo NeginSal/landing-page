@@ -41,6 +41,7 @@ body{
 .img-banner{
     max-width: 500px;
     max-height: 300px;
+    cursor: pointer;
 }
 #box {
     display: flex;
@@ -81,7 +82,7 @@ body{
       }
 }
 svg {
-    width: 60%; height: 60%;
+    width: 50%; height: 50%;
   }
   svg text {
     animation: stroke 5s infinite alternate;
@@ -239,18 +240,14 @@ svg {
 
 /*Navbar*/
 .img-logo{
-    width: 100px;
+    width: fit-content;
     height: fit-content;
 }
 .nav-link{
-    color: white;
     font-size: x-large;
 }
-.nav-link:hover{
-    color: white;
-}
 .navbar{
-background: #00001a;
+    background: #00001a;
 }
 /* End Navbar*/
 
