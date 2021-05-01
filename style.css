@@ -39,21 +39,16 @@ body{
     font-size: medium;
 }
 .img-banner{
-    max-width: 500px;
+    max-width: 450px;
     max-height: 300px;
     cursor: pointer;
 }
 #box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 500px;
+    max-width: 450px;
     max-height: 300px;
-    color: white;
 }
 .gradient-border {
     --borderWidth: 3px;
-    background: #1D1F20;
     position: relative;
     border-radius: var(--borderWidth);
 }
@@ -68,7 +63,6 @@ body{
     border-radius: calc(2 * var(--borderWidth));
     z-index: -1;
     animation: animatedgradient 3s ease alternate infinite;
-    background-size: 300% 300%;
 }
 @keyframes animatedgradient {
       0% {
