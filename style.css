@@ -80,6 +80,27 @@ body{
           background-position: 0% 50%;
       }
 }
+svg {
+    width: 60%; height: 60%;
+  }
+  svg text {
+    animation: stroke 5s infinite alternate;
+    stroke-width: 4;
+    stroke: #0099ff;
+    font-size: 140px;
+  }
+  @keyframes stroke {
+    0%   {
+      fill: rgba(204, 243, 255,0); stroke: rgb(0, 153, 204,1);
+      stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 4;
+    }
+    70%  {fill: rgba(204, 243, 255,0); stroke: rgb(0, 153, 204,1); }
+    80%  {fill: rgba(204, 243, 255,0); stroke: rgb(0, 153, 204,1); stroke-width: 3; }
+    100% {
+      fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0);
+      stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+    }
+  }
 /*End banner*/
 
 /*Contact us*/
@@ -153,19 +174,22 @@ body{
     border-radius: 50%;
     width:100px;
     transition: 3s ease;
+    cursor: pointer;
 }
 .img-Colleague:hover{
     -webkit-transform: rotateZ(-60deg);
     -ms-transform: rotateZ(-60deg);
     transform: rotateZ(-60deg);
     transition: 2s ease;
-    border: 7px solid #019fb6;
+    border: 7px solid #0066ff;
 }
 /* End Colleagues*/
 
 /*Service*/
 .card{
    background: #00001a;
+   border: 3px solid #000033;
+   cursor: pointer;
 }
 .card-body{
    color: white;
@@ -174,6 +198,42 @@ body{
 .card-img-top{
     max-width: fit-content;
     max-height: fit-content;
+}
+.card::before,
+.card::after {
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  content: '';
+  pointer-events: none;
+  position: absolute;
+  width: 0rem;
+  height: 0;
+  bottom: 0;
+  right: 0;
+}
+.card::before {
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+}
+.card::after {
+  border-top-width: 3px;
+  border-right-width: 3px;
+}
+.card:hover::before,
+.card:hover::after {
+  border-color: #eb196e;
+  -webkit-transition: border-color 0s, width 0.25s, height 0.25s;
+  transition: border-color 0s, width 0.25s, height 0.25s;
+  width: 100%;
+  height: 100%;
+}
+.card:hover::before {
+  -webkit-transition-delay: 0s, 0s, 0.25s;
+  transition-delay: 0s, 0s, 0.25s;
+}
+.card:hover::after {
+  -webkit-transition-delay: 0s, 0.25s, 0s;
+  transition-delay: 0s, 0.25s, 0s;
 }
 /*End Service*/
 
@@ -222,10 +282,10 @@ background: #00001a;
 .line2 {
     border-bottom: solid 5px #ff0066;
     border-top-width: 0px;
-    animation-name: line2_animation;
+    animation-name: line_animation;
     animation-duration: 4s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite
 }
 /* End animation line*/
 
