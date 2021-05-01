@@ -20,15 +20,15 @@ body{
     background-color: #ff0066;
     border-radius: 50%;
     display: inline-block;
-  }
-  .dot-about{
+}
+.dot-about{
     height: 15px;
     width: 15px;
     background-color: #00ccff;
     border-radius: 50%;
     display: inline-block;
-  }
-/*banner*/
+}
+/*Banner*/
 .btn{
     border-radius: 50px;
     margin: auto;
@@ -51,14 +51,14 @@ body{
     color: white;
     font-family: 'Raleway';
     font-size: 2.5rem;
-  }
-  .gradient-border {
+}
+.gradient-border {
     --borderWidth: 3px;
     background: #1D1F20;
     position: relative;
     border-radius: var(--borderWidth);
-  }
-  .gradient-border:after {
+}
+.gradient-border:after {
     content: '';
     position: absolute;
     top: calc(-1 * var(--borderWidth));
@@ -70,10 +70,8 @@ body{
     z-index: -1;
     animation: animatedgradient 3s ease alternate infinite;
     background-size: 300% 300%;
-  }
-
-
-  @keyframes animatedgradient {
+}
+@keyframes animatedgradient {
       0% {
           background-position: 0% 50%;
       }
@@ -83,21 +81,16 @@ body{
       100% {
           background-position: 0% 50%;
       }
-  }
-
+}
 /*End banner*/
 
 /*Contact us*/
-.fa-facebook-f,.fa-twitter,.fa-linkedin-in,.fa-instagram,.fa-phone,.fa-envelope,.fa-map-marker{
-    color: white;
-    font-size:xx-large;
+.icon{
+        font-size: 20px;
 }
 .contactus{
     height: 500px; ;
     width: fit-content;
-}
-.icon{
-    font-size: 20px;
 }
 .form-control{
     background: #00001a;
@@ -117,14 +110,14 @@ body{
     color: white;
     font-family: 'Raleway';
     font-size: 2.5rem;
-  }
-  .gradient-border-3 {
+}
+.gradient-border-3 {
     --borderWidth: 3px;
     background: #1D1F20;
     position: relative;
     border-radius: var(--borderWidth);
-  }
-  .gradient-border-3:after {
+}
+.gradient-border-3:after {
     content: '';
     position: absolute;
     top: calc(-1 * var(--borderWidth));
@@ -136,10 +129,8 @@ body{
     z-index: -1;
     animation: animatedgradient 3s ease alternate infinite;
     background-size: 300% 300%;
-  }
-
-
-  @keyframes animatedgradient {
+}
+@keyframes animatedgradient {
       0% {
           background-position: 0% 50%;
       }
@@ -149,7 +140,7 @@ body{
       100% {
           background-position: 0% 50%;
       }
-  }
+}
 /*End Contact us*/
 
 /*Frequently Asked Questions*/
@@ -168,7 +159,7 @@ body{
 
 /*Service*/
 .card{
-    background: #00001a;
+   background: #00001a;
 }
 .card-body{
    color: white;
@@ -193,7 +184,7 @@ body{
     color: white;
 }
 .navbar{
-    background: #00001a;
+background: #00001a;
 }
 /* End Navbar*/
 
@@ -205,8 +196,8 @@ body{
     to {
         width:100%;
     }
-    }
-    .line {
+}
+.line {
     border-bottom: solid 5px #019fb6;
     border-top-width: 0px;
     animation-name: line_animation;
@@ -214,7 +205,6 @@ body{
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-
 @keyframes line2_animation {
     from {
         width: 0%;
@@ -222,8 +212,8 @@ body{
     to {
         width:100%;
     }
-    }
-    .line2 {
+}
+.line2 {
     border-bottom: solid 5px #ff0066;
     border-top-width: 0px;
     animation-name: line2_animation;
@@ -243,14 +233,14 @@ body{
     color: white;
     font-family: 'Raleway';
     font-size: 2.5rem;
-  }
-  .gradient-border-2 {
+}
+.gradient-border-2 {
     --borderWidth: 3px;
     background: #1D1F20;
     position: relative;
     border-radius: var(--borderWidth);
-  }
-  .gradient-border-2:after {
+}
+.gradient-border-2:after {
     content: '';
     position: absolute;
     top: calc(-1 * var(--borderWidth));
@@ -262,10 +252,8 @@ body{
     z-index: -1;
     animation: animatedgradient 3s ease alternate infinite;
     background-size: 300% 300%;
-  }
-
-
-  @keyframes animatedgradient {
+}
+@keyframes animatedgradient {
       0% {
           background-position: 0% 50%;
       }
@@ -275,8 +263,63 @@ body{
       100% {
           background-position: 0% 50%;
       }
-  }
-  /*End about us*/
+}
+/*End about us*/
+
+/*Footer*/
+.social-icons .item {
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    transition: .3s all;
+    -webkit-transition: .3s all;
+    color: #fff;
+    background-color: #00001a;
+    border-radius: 50%;
+
+}
+.social-icons.spinned .item:hover {
+    -webkit-animation: Social-Icons-Flipping .3s;
+    animation: Social-Icons-Flipping .3s
+}
+.social-icons .item .fab {
+    font-size:xx-large;
+    font-weight: 500;
+}
+.linkedin:hover {
+    background-color: #019fb6!important
+}
+.facebook:hover {
+    background-color: #019fb6!important
+}
+.twitter:hover {
+    background-color: #019fb6!important
+}
+.instagram:hover {
+    background-color: #019fb6!important
+}
+@-webkit-keyframes Social-Icons-Flipping {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+@keyframes Social-Icons-Flipping {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+/*End footer*/
+
 
 
 
