@@ -35,13 +35,56 @@ body{
     text-align: center;
     width: 150px;
 }
+.fa-long-arrow-alt-left{
+    font-size: medium;
+}
 .img-banner{
     max-width: 500px;
     max-height: 300px;
 }
-.fa-long-arrow-alt-left{
-    font-size: medium;
-}
+#box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    max-height: 300px;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 2.5rem;
+  }
+  .gradient-border {
+    --borderWidth: 3px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+
+
+  @keyframes animatedgradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
 /*End banner*/
 
 /*Contact us*/
@@ -65,6 +108,48 @@ body{
     background:#000033;
     width: 500px;
 }
+#box-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 520px;
+    max-height: 900px;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 2.5rem;
+  }
+  .gradient-border-3 {
+    --borderWidth: 3px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .gradient-border-3:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+
+
+  @keyframes animatedgradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
 /*End Contact us*/
 
 /*Frequently Asked Questions*/
@@ -127,6 +212,7 @@ body{
     animation-name: line_animation;
     animation-duration: 4s;
     animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 @keyframes line2_animation {
@@ -143,10 +229,54 @@ body{
     animation-name: line2_animation;
     animation-duration: 4s;
     animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 /* End animation line*/
 
+/*about us*/
+#box-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 430px;
+    max-height: 500px;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 2.5rem;
+  }
+  .gradient-border-2 {
+    --borderWidth: 3px;
+    background: #1D1F20;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .gradient-border-2:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
 
+
+  @keyframes animatedgradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  /*End about us*/
 
 
 
