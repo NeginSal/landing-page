@@ -258,8 +258,8 @@ svg {
         font-size: 20px;
 }
 .contactus{
-    height: 500px; ;
-    width: fit-content;
+    width: 460px;
+    height: 500px; 
 }
 .form-control{
     background: #00001a;
@@ -271,10 +271,9 @@ svg {
     width: 500px;
 }
 #box-3 {
-    max-width: 520px;
+    max-width: 460px;
     max-height: 900px;
     cursor: pointer;
-
 }
 .gradient-border-3 {
     --borderWidth: 3px;
