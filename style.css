@@ -46,6 +46,7 @@ body{
 #box {
     max-width: 450px;
     max-height: 300px;
+    cursor: pointer;
 }
 .gradient-border {
     --borderWidth: 3px;
@@ -116,18 +117,13 @@ svg {
     width: 500px;
 }
 #box-3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     max-width: 520px;
     max-height: 900px;
-    color: white;
-    font-family: 'Raleway';
-    font-size: 2.5rem;
+    cursor: pointer;
+
 }
 .gradient-border-3 {
     --borderWidth: 3px;
-    background: #1D1F20;
     position: relative;
     border-radius: var(--borderWidth);
 }
@@ -167,15 +163,14 @@ svg {
 /*Colleagues*/
 .img-Colleague{
     border-radius: 50%;
-    width:100px;
-    transition: 3s ease;
+    width:120px;
     cursor: pointer;
 }
 .img-Colleague:hover{
     -webkit-transform: rotateZ(-60deg);
     -ms-transform: rotateZ(-60deg);
     transform: rotateZ(-60deg);
-    transition: 2s ease;
+    transition: 2s ;
     border: 7px solid #0066ff;
 }
 /* End Colleagues*/
@@ -201,7 +196,7 @@ svg {
   content: '';
   pointer-events: none;
   position: absolute;
-  width: 0rem;
+  width: 0;
   height: 0;
   bottom: 0;
   right: 0;
@@ -245,7 +240,7 @@ svg {
 }
 /* End Navbar*/
 
-/*animation line*/
+/*Animation line*/
 @keyframes line_animation {
     from {
         width: 0%;
@@ -278,18 +273,13 @@ svg {
     animation-timing-function: linear;
     animation-iteration-count: infinite
 }
-/* End animation line*/
+/* End Animation line*/
 
-/*about us*/
+/*About us*/
 #box-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 430px;
+    max-width: 420px;
     max-height: 500px;
-    color: white;
-    font-family: 'Raleway';
-    font-size: 2.5rem;
+    cursor: pointer;
 }
 .gradient-border-2 {
     --borderWidth: 3px;
@@ -321,7 +311,7 @@ svg {
           background-position: 0% 50%;
       }
 }
-/*End about us*/
+/*End About us*/
 
 /*Footer*/
 .social-icons .item {
