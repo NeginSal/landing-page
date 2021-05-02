@@ -88,13 +88,13 @@ body{
     font-size: medium;
 }
 .img-banner{
-    max-width: 450px;
-    max-height: 300px;
+    width:100%;
+    height: auto;
     cursor: pointer;
 }
 #box {
-    max-width: 450px;
-    max-height: 300px;
+    width:100%;
+    height: auto;
     cursor: pointer;
 }
 .gradient-border {
@@ -203,14 +203,18 @@ svg {
  /*End Service*/
 
  /*About us*/
+.img-about{
+    width:100%;
+    height: auto;
+
+}
 #box-2 {
-    max-width: 420px;
-    max-height: 500px;
+    width:100%;
+    height: auto;
     cursor: pointer;
 }
 .gradient-border-2 {
     --borderWidth: 3px;
-    background: #1D1F20;
     position: relative;
     border-radius: var(--borderWidth);
 }
@@ -243,7 +247,7 @@ svg {
 /*Colleagues*/
 .img-Colleague{
     border-radius: 50%;
-    width:120px;
+    width:100px;
     cursor: pointer;
 }
 .img-Colleague:hover{
@@ -260,8 +264,8 @@ svg {
         font-size: 20px;
 }
 .contactus{
-    width: 460px;
-    height: 500px;
+    width: 100%;
+    height: auto;
 }
 .form-control{
     background: #00001a;
@@ -274,8 +278,8 @@ svg {
     border-radius: 50px;
 }
 #box-3 {
-    max-width: 460px;
-    max-height: 900px;
+    width:100%;
+    height: auto;
     cursor: pointer;
 }
 .gradient-border-3 {
@@ -310,14 +314,33 @@ svg {
 /*End Contact us*/
 
 /*Frequently Asked Questions*/
-.list-group-item{
+.list-group-item {
     background:#000033;
-    width: 600px;
     border-radius: 10px;
 }
 .list-group-item:nth-child(1),.list-group-item:nth-child(4){
     border-radius: 10px;
 }
+@media (min-width: 576px) {
+  .list-group-item{
+      width: 100px;
+    }
+}
+@media (min-width: 768px) {
+    .list-group-item{
+        width: 500px;
+    }
+ }
+@media (min-width: 992px) {
+    .list-group-item{
+        width: 550px;
+    }
+ }
+@media (min-width: 1200px) {
+    .list-group-item{
+        width: 600px;
+    }
+ }
 
 /*End Frequently Asked Questions*/
 
